@@ -29,7 +29,7 @@ namespace Telesign
                                 string apiKey,
                                 string restEndPoint,
                                 int timeout,
-                                WebProxy proxy,
+                                IWebProxy proxy,
                                 string proxyUsername,
                                 string proxyPassword)
             : base(customerId,

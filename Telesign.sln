@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telesign.Test", "Telesign.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telesign.Example", "Telesign.Example\Telesign.Example.csproj", "{BBB0568D-C6F9-4A13-B2BD-42B1441BC03B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telesign", "Telesign\Telesign.csproj", "{D79E8A80-36C2-421E-BCBC-75573ADDB9D0}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Telesign", "Telesign\Telesign.xproj", "{6759B8E7-EFEB-4212-8981-CEC3CC709420}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{BBB0568D-C6F9-4A13-B2BD-42B1441BC03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBB0568D-C6F9-4A13-B2BD-42B1441BC03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBB0568D-C6F9-4A13-B2BD-42B1441BC03B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D79E8A80-36C2-421E-BCBC-75573ADDB9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D79E8A80-36C2-421E-BCBC-75573ADDB9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D79E8A80-36C2-421E-BCBC-75573ADDB9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D79E8A80-36C2-421E-BCBC-75573ADDB9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6759B8E7-EFEB-4212-8981-CEC3CC709420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6759B8E7-EFEB-4212-8981-CEC3CC709420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6759B8E7-EFEB-4212-8981-CEC3CC709420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6759B8E7-EFEB-4212-8981-CEC3CC709420}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

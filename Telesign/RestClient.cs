@@ -7,6 +7,7 @@ using System.Net;
 using Newtonsoft.Json;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using Microsoft.Extensions.PlatformAbstractions;
 
 namespace Telesign
 {
@@ -20,7 +21,7 @@ namespace Telesign
     {
         public static readonly string UserAgent = string.Format("TeleSignSdk/csharp-{0} .Net/{1} HttpClient",
             "2.2.0",
-            Environment.Version.ToString());
+            PlatformServices.Default.Application.RuntimeFramework.Version.ToString());
 
         private string customerId;
         private string apiKey;
@@ -43,7 +44,7 @@ namespace Telesign
                           string apiKey,
                           string restEndpoint = "https://rest-api.telesign.com",
                           int timeout = 10,
-                          WebProxy proxy = null,
+                          IWebProxy proxy = null,
                           string proxyUsername = null,
                           string proxyPassword = null)
         {
